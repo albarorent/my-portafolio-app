@@ -10,7 +10,7 @@ const geistSans = Geist({
 
 
 export const metadata: Metadata = {
-  title: "Portfolio - Frontend Engineer",
+  title: "Alvaro Renteria - Frontend Engineer",
   description: "Portafolio de un desarrollador Frontend con experiencia en React, Next.js, TypeScript y TailwindCSS.",
 
 };
