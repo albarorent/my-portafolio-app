@@ -31,17 +31,17 @@ const Experience = () => {
           </ExperienceList>
           <ExperienceList
             date="Abril 2023 - Dic 2023"
-            link="https://www.mrsoftperu.com/"
-            title="Frontend Engineer   ."
-            subTitle="MrSoft"
-            description="Desarrollar y mantener los componentes críticos utilizados para construir la interfaz de diferentes sistemas web. Colaborar estrechamente con equipos multidisciplinares, incluyendo desarrolladores, diseñadores y gerentes de producto, para implementar y promover las mejores prácticas de accesibilidad web."
+            link="https://www.datec.pe/"
+            title="FullStack Engineer   ."
+            subTitle="Datec Consulting S.A.C."
+            description="Desarrollar soluciones web y dar mantenimiento a un ERP de gestión empresarial. Implementar nuevas funcionalidades y optimizar el rendimiento del sistema, asegurando una experiencia de usuario fluida y eficiente."
           >
             <ButtonTecnology name="JavaScript" />
-            <ButtonTecnology name="React Native" />
-            <ButtonTecnology name="React" />
-            <ButtonTecnology name="TypeScript" />
-            <ButtonTecnology name="Next.js" />
-            <ButtonTecnology name="Tailwind CSS" />
+            <ButtonTecnology name="PHP" />
+            <ButtonTecnology name="JQuery" />
+            <ButtonTecnology name="CSS" />
+            <ButtonTecnology name="Bootstrap 5" />
+            <ButtonTecnology name="HTML5" />
           </ExperienceList>
         </ol>
       </div>
