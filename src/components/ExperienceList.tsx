@@ -4,6 +4,7 @@ interface Props {
   title: string;
   subTitle: string;
   description: string;
+  link:string;
   children?: React.ReactNode;
 }
 
@@ -12,6 +13,7 @@ const ExperienceList = ({
   title,
   subTitle,
   description,
+  link = "#",
   children,
 }: Props) => {
   return (
@@ -25,7 +27,10 @@ const ExperienceList = ({
           <h3 className="font-medium leading-snug text-slate-200">
             <div>
               <a
-                href="#"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Link to ${title} at ${subTitle}`}
                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
               >
                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
