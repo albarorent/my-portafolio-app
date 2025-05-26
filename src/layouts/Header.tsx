@@ -49,7 +49,12 @@ const Header = () => {
       </div>
       <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
         <li className="mr-5 shrink-0 text-xs">
-          <a href="#" className="block hover:text-slate-200">
+          <a
+            href="https://github.com/albarorent"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="block hover:text-slate-200"
+          >
             <span className="sr-only">Github</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +68,12 @@ const Header = () => {
           </a>
         </li>
         <li className="mr-5 shrink-0 text-xs">
-          <a href="#" className="block hover:text-slate-200">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/alvaro-renteria-arce-a6bb74219"
+            target="_blank"
+            className="block hover:text-slate-200"
+          >
             <span className="sr-only">Linkedin</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
