@@ -17,6 +17,7 @@ const Experience = () => {
         <ol className="group/list">
           <ExperienceList
             date="2024-Present"
+            link="https://www.mrsoftperu.com/"
             title="Frontend Engineer   ."
             subTitle="MrSoft"
             description="Desarrollar y mantener los componentes críticos utilizados para construir la interfaz de diferentes sistemas web. Colaborar estrechamente con equipos multidisciplinares, incluyendo desarrolladores, diseñadores y gerentes de producto, para implementar y promover las mejores prácticas de accesibilidad web."
