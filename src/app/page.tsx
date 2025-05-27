@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      setPosition({ x: e.pageX, y: e.pageY }); // 👈 usa pageX/pageY
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="__variable_20b187 group/spotlight relative">
       <div
-        className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
+        className="pointer-events-none absolute inset-0 z-30 transition duration-300" // 👈 usa absolute
         style={{
           background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
         }}
