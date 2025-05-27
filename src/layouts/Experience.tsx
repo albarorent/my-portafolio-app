@@ -1,5 +1,5 @@
-import ButtonTecnology from "./ButtonTecnology";
-import ExperienceList from "./ExperienceList";
+import ButtonTecnology from "../components/ButtonTecnology";
+import ExperienceList from "../components/ExperienceList";
 
 const Experience = () => {
   return (
